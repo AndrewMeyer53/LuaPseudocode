@@ -12,7 +12,7 @@ print(string.upper(somewords))
 print("Enter the first number") 
 num1 = tonumber(io.read())
 
-While num1 == nill do
+while num1 == nil do
   print("Thats not a number, try again !")
   num1 = tonumber(io.read())
 end 
@@ -20,7 +20,7 @@ end
 print("Enter the second number ") 
 num2 = tonumber(io.read()) 
 
-While num2 == nill do 
+while num2 == nil do 
   print("Thats not a number, try again!")
   num2 = tonumber(io.read())
 end
@@ -30,3 +30,7 @@ print("The total is " .. total)
 
 --#3 
 --Get an unknown amount of numbers from the user, add them together, print out the result.
+
+continueVar = "Y" do
+
+
