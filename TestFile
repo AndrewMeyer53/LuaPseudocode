@@ -1,1 +1,32 @@
-print
+--#1
+--Ask the user for some text, convert the text into all caps.
+
+print("Please enter some words")
+somewords = io.read()
+print(string.upper(somewords))
+
+--#2 
+--Ask the user for 2 numbers, add them together, print the result
+--Think about: what happens if the user enters a letter?
+
+print("Enter the first number") 
+num1 = tonumber(io.read())
+
+While num1 == nill do
+  print("Thats not a number, try again !")
+  num1 = tonumber(io.read())
+end 
+
+print("Enter the second number ") 
+num2 = tonumber(io.read()) 
+
+While num2 == nill do 
+  print("Thats not a number, try again!")
+  num2 = tonumber(io.read())
+end
+
+total = num1 + num2
+print("The total is " .. total) 
+
+--#3 
+--Get an unknown amount of numbers from the user, add them together, print out the result.
